@@ -57,6 +57,9 @@ Para bater a baseline de 0.40, o projeto foi migrado para uma arquitetura SOTA: 
         * **Fase A (Treino da Cabeça):** Treino de uma "cabeça" de regressão em PyTorch com o `dino_base` congelado (`requires_grad=False`).
         * **Fase B (Fine-Tuning):** O `dino_base` foi "descongelado" e treinado com uma taxa de aprendizagem (learning rate) muito baixa (`1e-6`), permitindo ao modelo adaptar-se ao nosso problema específico sem "esquecer" o seu conhecimento prévio.
 
+<img width="1223" height="649" alt="previsor" src="https://github.com/user-attachments/assets/4e2d97a9-e750-4dd4-a275-3fab653e4f6b" />
+
+
 ## Resultados
 
 * **Modelo Baseline (EfficientNetB0):** 0.40 $R^2$
