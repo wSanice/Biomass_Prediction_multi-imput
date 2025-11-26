@@ -78,7 +78,7 @@ Uma app interativa que demonstra o conceito de *multi-input* (combinando imagens
 ```bash
 # 1. Clone o repositório
 git clone https://github.com/wSanice/Biomass_Prediction_multi-imput.git
-cd [NOME_DA_PASTA]
+cd Biomass_Prediction_multi-imput
 
 # 2. Instale as dependências
 pip install -r requirements.txt
