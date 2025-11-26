@@ -63,7 +63,7 @@ Para bater a baseline de 0.40, o projeto foi migrado para uma arquitetura SOTA: 
 ## Resultados
 
 * **Modelo Baseline (EfficientNetB0):** 0.40 $R^2$
-* **Modelo Avançado (DINOv2):** `[Insira o seu novo score aqui, ex: 0.52]`
+* **Modelo Avançado (DINOv2):** `57`
 
 O DINOv2 provou ser um backbone superior, e a combinação de Data Augmentation e Fine-Tuning foi crucial para gerir o dataset pequeno e melhorar o score da baseline.
 
@@ -76,7 +76,7 @@ Este projeto existe em dois locais:
 Uma app interativa que demonstra o conceito de *multi-input* (combinando imagens com metadados).
 
 ```bash
-# 1. Clone o repositório (se estiver no GitHub)
+# 1. Clone o repositório
 git clone [SEU_LINK_GITHUB]
 cd [NOME_DA_PASTA]
 
